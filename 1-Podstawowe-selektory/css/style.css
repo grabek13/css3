@@ -1,0 +1,35 @@
+* {
+    color: blueviolet;
+}
+
+p {
+    color: orange;
+}
+
+#kasia {
+    color: pink;
+}
+
+div.lorak {
+    color: coral;
+}
+.lorak {
+    color: blue;
+}
+
+ul a {
+    color: red;
+}
+
+li > a {
+    background-color: beige;
+}
+a > span {
+    background-color: aquamarine;
+}
+li#pierwszy ~ li {
+    background-color: lightcyan;
+}
+li#pierwszy + li {
+    background-color: burlywood;
+}
