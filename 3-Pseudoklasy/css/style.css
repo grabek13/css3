@@ -1,0 +1,13 @@
+#name:hover {
+    background-color: mediumaquamarine;
+    
+}
+#name:focus {
+    color: red;
+}
+.customer:first-child {
+    font-size: 2em;
+}
+.customer:nth-last-of-type(3) {
+    color: chartreuse;
+}
