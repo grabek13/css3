@@ -1,0 +1,15 @@
+#p1 {
+    background-color: aquamarine;
+}
+
+#p2 {
+    background-color: brown;
+}
+
+#inline-elements p {
+    display: inline;
+}
+
+#display-none {
+    display: none;
+}
