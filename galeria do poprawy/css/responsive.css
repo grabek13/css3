@@ -1,0 +1,40 @@
+#gallery {
+    width: 90%;
+    
+}
+
+figure {
+    width: 33%;
+}
+h2, p {
+    margin: 0 auto;
+	text-align: center;
+
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    
+    
+    figure {
+    width: 45%;
+}
+}
+
+@media (max-width: 768px) {
+   
+    
+    figure {
+    width: 90%;
+}
+}
+
+@media (max-width: 480px) {
+    gallery, figure {
+	    float: none;
+        width: 100%;
+        
+}
