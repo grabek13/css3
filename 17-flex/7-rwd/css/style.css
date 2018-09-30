@@ -1,0 +1,66 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+50,72aa00+51,9ecb2d+100;Green+Gloss */
+    background: #bfd255;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bfd255', endColorstr='#9ecb2d', GradientType=0);
+    /* IE6-9 */
+}
+
+
+.articles {
+    max-width: 670px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.articles-el {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles-el img {
+    max-width: 100%;
+    
+}
+
+.articles-img {
+    flex-basis: 40%;
+    margin: 0;
+}
+
+.articles-text {
+    flex-basis: 50%;
+}
+
+/*
+.articles-reverse .articles-img {
+    order: 2;
+}
+
+.articles-reverse .articles-text {
+    order: 1;
+}*/
+.articles-reverse {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 670px) {
+    .articles-el {
+        flex-direction: column;
+    }
+    .articles-img .articles-text {
+        margin-bottom: 15px;
+        flex-basis: 100%;
+    }
+}
