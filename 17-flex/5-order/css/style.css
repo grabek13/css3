@@ -1,0 +1,27 @@
+.flex-item {
+    border: 1px solid blue;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+.flex-item:nth-last-of-type(2n) {
+    background-color: antiquewhite;
+}
+
+.flex-container {
+    display: flex;
+}
+
+    @media (max-width: 960px) {
+        .order-1 {
+            order: 1;
+        }
+        
+        .order-2 {
+            order: 2;
+        }
+        .order-3 {
+            order: 3;
+        }
+    }
